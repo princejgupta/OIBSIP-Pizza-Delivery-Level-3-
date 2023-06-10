@@ -1,0 +1,131 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+  }
+  
+  body {
+    background-color: #d3da53;
+    background: linear-gradient(24deg, rgb(226, 226, 3) 15%, #d1d721 35%, #d2d746 65%, #d9dc7c 95%);
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #68bc79;
+    padding: 15px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #68bc79;
+  }
+  nav ul li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #029c21;
+  }
+  
+  .hero {
+    background-image: url('photo-1513104890138-7c749659a591.jpeg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 250px 0;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ff9933;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff6600;
+  }
+  
+  .featured-pizzas {
+    background-color: #ecf6f8;
+    padding: 40px 0;
+  }
+  
+  .featured-pizzas h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .pizza-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .pizza-item {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  .pizza-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .pizza-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .contact, footer{
+    padding: 50px;
+    text-align: center;
+  }
